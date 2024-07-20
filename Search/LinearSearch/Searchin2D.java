@@ -1,4 +1,4 @@
-package org.example.Search;
+package org.example.Search.LinearSearch;
 
 import java.util.Arrays;
 import java.util.Scanner;

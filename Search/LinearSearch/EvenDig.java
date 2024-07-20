@@ -1,4 +1,4 @@
-package org.example.Search;
+package org.example.Search.LinearSearch;
 
 public class EvenDig {
     public static void main(String[] args) {
