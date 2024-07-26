@@ -7,7 +7,7 @@ public class Dupnums {
         int[] nums={3,1,2,4,3};
         System.out.println(dupnums(nums));
     }
-    //easy approach non cyclic sort
+
 //    static int dupnums1(int[] nums){
 //        for (int i = 0; i < nums.length; i++) {
 //
