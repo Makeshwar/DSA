@@ -1,5 +1,4 @@
 package org.example.FunctionsandMethods.Questions;
-
 public class Armstrong {
     public static void main(String[] args) {
         Armstrongno();
@@ -22,4 +21,3 @@ public class Armstrong {
         return sum == temp;
     }
     }
-
