@@ -12,6 +12,7 @@ public class Digitsum {
         }
         System.out.println(digitsum(arr));
     }
+    
     static int digitsum(int[] arr){
         int sum=0;
         for (int i = 0; i < arr.length-1; i++) {

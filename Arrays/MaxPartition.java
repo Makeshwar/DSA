@@ -34,7 +34,6 @@ public class MaxPartition {
         }
         return subarraysFormed;
     }
-
     public static void main(String[] args) {
         int[] arr = {36, 6, 6, 3, 12};
         System.out.println(maxSubarrays(arr));  // Expected output: 3
