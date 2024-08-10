@@ -5,6 +5,5 @@ public class NoOfDig {
         int b=2;//base
         int ans=(int)(Math.log(n)/Math.log(b))+1;
         System.out.println(ans);
-
     }
 }
