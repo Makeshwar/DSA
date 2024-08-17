@@ -31,7 +31,6 @@ public class PalindromeChecker {
 
         }
         return true;
-
     }
 
     public static void main(String[] args) {
