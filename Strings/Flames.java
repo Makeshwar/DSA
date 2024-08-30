@@ -3,15 +3,15 @@ package org.example.Strings;
 public class Flames {
 
     public static void main(String[] args) {
-    String str1 = "";
-    String str2 = "";
+    String str1 = "MAKESHWAR";
+    String str2 = "MAKESHWAR";
     // Remove spaces and convert to lowercase
     str1 = str1.replaceAll("\\s", "").toLowerCase();
     str2 = str2.replaceAll("\\s", "").toLowerCase();
 
     // Validate names
         if (str2.equals(str1) || str2.length() <= 2 || str1.length() <= 2) {
-        System.out.println("Enter valid Names of more than two characters and two different names.");
+        System.out.println("Invalid Name! Enter valid Names of more than two characters and two different names.");
     } else {
         System.out.println("Relationship: " + flames(str1, str2));
     }
@@ -72,4 +72,41 @@ static String mapFlamesResult(char c) {
     }
 }
 
+//    public static void main(String[] args) {
+//        Scanner sc=new Scanner(System.in);
+//        String str1=sc.next();
+//        String str2=sc.next();
+//        StringBuilder obj1=new StringBuilder(str1);
+//        StringBuilder obj2=new StringBuilder(str2);
+//        ArrayList<String> lst=new ArrayList<String>();
+//        lst.add("Friendship");
+//        lst.add("Love");
+//        lst.add("Affection");
+//        lst.add("Marriage");
+//        lst.add("Enemy");
+//        lst.add("Sisters");
+//        int len1=obj1.length();
+//        int len2=obj2.length();
+//        int count=0;
+//        for(int i=0;i<len1;i++){
+//            for(int j=0;j<len2;j++){
+//                if(obj1.charAt(i)==obj2.charAt(j)){
+//                    obj2.deleteCharAt(j);
+//                    count+=1;
+//                    len2--;
+//                    break;
+//                }
+//            }
+//        }
+//        int m=(str1.length()-count)+(str2.length()-count);
+//        int index=0;
+//        while(lst.size()>1){
+//            index=((index+m-1)%lst.size());
+//            lst.remove(index);
+//        }
+//        System.out.println("Relationship will be..."+lst.get(0)+"!");
+//    }
+
 }
+
+
