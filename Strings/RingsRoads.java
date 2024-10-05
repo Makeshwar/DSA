@@ -1,7 +1,5 @@
 package org.example.Strings;
 
-import java.util.Arrays;
-
 public class RingsRoads {
     public int countPoints(String rings) {
         boolean[] B=new boolean[10];

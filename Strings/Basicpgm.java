@@ -1,7 +1,5 @@
 package org.example.Strings;
 
-import java.util.Arrays;
-
 public class Basicpgm {
     public static void main(String[] args) {
         String a=new String("Makesh");

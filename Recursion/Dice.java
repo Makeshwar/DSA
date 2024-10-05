@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Dice {
     public static void main(String[] args) {
-     dice("",4);
+        dice("",4);
         System.out.println(diceret("",4));
         System.out.println(dicesumcount(2,6,7));
 

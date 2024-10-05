@@ -5,7 +5,7 @@ public class BestTimeStock {
         int currmin = 0;
         int i = 0;
         int j = i + 1;
-        while (i < prices.length - 1 ) {
+        while (i < prices.length - 1 ){
             if (prices[i] - prices[j] > currmin) {
                 j++;
                 if (j==prices.length){

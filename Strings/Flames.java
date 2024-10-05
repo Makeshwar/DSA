@@ -4,7 +4,7 @@ public class Flames {
 
     public static void main(String[] args) {
     String str1 = "MAKESHWAR";
-    String str2 = "MAKESHWAR";
+    String str2 = "";
     // Remove spaces and convert to lowercase
     str1 = str1.replaceAll("\\s", "").toLowerCase();
     str2 = str2.replaceAll("\\s", "").toLowerCase();

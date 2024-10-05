@@ -1,7 +1,5 @@
 package org.example.Strings;
 
-import java.util.Arrays;
-
 public class ReverseLetters {
 
     public String reverseOnlyLetters(String s) {
