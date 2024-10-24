@@ -3,7 +3,6 @@ package org.example.LinkedList.SinglyLinkedList;
 class Node {
     int data;
     Node next;
-
     Node(int data) {
         this.data = data;
         this.next = null;
@@ -18,6 +17,7 @@ class Node {
         newNode.next = head;
         head = newNode;
     }
+
     // Insert a new node at the end
     public void insertLast(int value) {
         Node newNode = new Node(value);
@@ -31,6 +31,7 @@ class Node {
         }
         current.next = newNode;
     }
+
     // Insert a new node at a specific position
     public void insert(int value, int index) {
         if (index == 0) {
@@ -49,6 +50,7 @@ class Node {
         newNode.next = current.next;
         current.next = newNode;
     }
+
     // Delete the first node
     public void deleteFirst() {
         if (head == null) return;
